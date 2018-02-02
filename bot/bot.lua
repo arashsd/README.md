@@ -1,5 +1,4 @@
 tdcli = dofile('./tg/tdcli.lua')
-
 serpent = (loadfile "./libs/serpent.lua")()
 
 feedparser = (loadfile "./libs/feedparser.lua")()
@@ -802,5 +801,4 @@ end
   tdcli_function ({ID="GetChats", offset_order_="9223372036854775807", offset_chat_id_=0, limit_=20}, dl_cb, nil) 
 
  end
-
 end
